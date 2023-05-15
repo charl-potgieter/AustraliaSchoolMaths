@@ -1,9 +1,14 @@
-Category, Sub-category,Description,formula,Year, On formula sheet, Comment
-Indices,Index Rules,Multiplying terms with same base, $a^m \times a^n = a^{m+n}$,9, False,
-Indices,Index Rules,Dividing terms with same base, $a^m \div a^n = \dfrac{a^m}{a^n} = a^{m-n}$,9, False,
-Indices,Index Rules,Power of a power, $(a^m)^n = a^{m \times n}$,9, False,
-Indices,Index Rules,Powers of products, $(ab)^n = a^nb^n$,9, False,
-Indices,Index Rules,Powers of quotients, $\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}$,9, False,
-Indices,Index Rules,Power of zero, $a^0=1$,9, False,
-Indices,Index Rules,Negative powers, $a^{-n}=\dfrac{1}{a^n}$,9, False,
-Indices,Index Rules,Negative powers of quotients, $\left(\dfrac{a}{b}\right)^{-n} = \left(\dfrac{b}{a}\right)^n$,9, False,
+Category, Sub-category,Description,Key,Formula,Year,On formula sheet,Comment
+Indices,Index Rules,Multiplying terms with same base,, $a^m \times a^n = a^{m+n}$,9, False,
+Indices,Index Rules,Dividing terms with same base,, $a^m \div a^n = \dfrac{a^m}{a^n} = a^{m-n}$,9, False,
+Indices,Index Rules,Power of a power,, $(a^m)^n = a^{m \times n}$,9, False,
+Indices,Index Rules,Powers of products,, $(ab)^n = a^nb^n$,9, False,
+Indices,Index Rules,Powers of quotients,, $\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}$,9, False,
+Indices,Index Rules,Power of zero,, $a^0=1$,9, False,
+Indices,Index Rules,Negative powers,, $a^{-n}=\dfrac{1}{a^n}$,9, False,
+Indices,Index Rules,Negative powers of quotients,, $\left(\dfrac{a}{b}\right)^{-n} = \left(\dfrac{b}{a}\right)^n$,9, False,
+Indices,Index Rules,Fractional powers,, $a^{\frac{m}{n}} =\sqrt[n]{a^m}$,9, False,
+Differentiation,,,$y=f(x)^n$, $\dfrac{dy}{dx}=nf'(x)[f(x)]^{n-1}$,12, True,
+Integration,,,$y=f(x)^n$, $ {\Large\int} f'(x)[f(x)]^n dx = \dfrac{1}{n+1}[f(x)]^{n+1} + c \enspace \text{where }n  \neq 1$,12, True, What happens when n is -1?
+Differentiation,,,$y=sinf(x)$, $\dfrac{dx}{dy} = f'(x)cos f(x)$,12, True,
+Integration,,,$y=sinf(x)$, $ {\Large\int} f'(x)cosf(x)dx = sin f(x) + c$,12, True,
