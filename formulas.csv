@@ -32,4 +32,4 @@ Integration,,,$y=sin^{-1}f(x)$, $ {\Large\int} \dfrac{f'(x)} {\sqrt {a^2 - (f(x)
 Differentiation,,,$y=cos^{-1}f(x)$, $ \dfrac{dy}{dx} =  - \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }$,12, True,Note the minus in front of fraction. Why no integral equivalent?
 Differentiation,,,$y=tan^{-1}f(x)$, $ \dfrac{dy}{dx} =  - \dfrac{f'(x)} {1 + (f(x))^2}$,12, No square root as per inverse sin and inverse cos derivatives and plus sign
 Integration,,,$y=tan^{-1}f(x)$, $ {\Large\int} \dfrac{f'(x)} {a^2 + (f(x))^2} dx = \dfrac{1}{a} tan^{-1} \dfrac{f(x)}{a} + c$,12, True,  No square root as per inverse sin and inverse cos derivatives and plus sign
-Integration,,,$approx$, "$ {\Large\int_{a}^{b}} f(x) dx \approx \dfrac{b-a} {2n} {\Large\{} f(a) + f(b) + 2 {\Large[} f(x_1)+...+f(x_{n-1}){\Large ]} {\Large\}} \text { where } a=x_0 \text{ and } b=x_n $",12, True,
+Integration,,,$approx$, $ {\Large\int_{a}^{b}} f(x) dx \approx \dfrac{b-a} {2n} {\Large\{} f(a) + f(b) + 2 {\Large[} f(x_1)+...+f(x_{n-1}){\Large ]} {\Large\}} \text { where } a=x_0 \text{ and } b=x_n $,12, True,
