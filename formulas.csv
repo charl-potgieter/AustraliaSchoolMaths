@@ -24,5 +24,12 @@ Differentiation,,,$y=a^{f(x)}$, $ \dfrac{dy}{dx} = (ln \thinspace a)f'(x)a^{f(x)
 Integration,,,$y=a^{f(x)}$, $ {\Large\int} f'(x)a^{f(x)}dx = \dfrac{a^f(x)}{ln \thinspace a} +c$,12, True,ln a is a constant therefore can be removed from the integral it can go on the other side of the intergral equation when compared to the derivative equation.
 Differentiation,,,$y=log _{a} f(x)$, $ \dfrac{dy}{dx} = \dfrac{f'(x)}{(ln \thinspace a) f(x)}$,12, True,This formula is not really needed on formula sheet as original function can easily be rewritten as $\dfrac{ln \thinspace f(x)}{ln \thinspace a}$ where $\dfrac{1}{ln \thinspace a}$ is a constant therefore the derivative rules for $y=\text{constant }\times ln \thinspace f(x)$ can be followed.  No equivalent integral is provided on formula sheet but can be easily derived.
 Differentiation,,,$y=uv$, $ \dfrac{dy}{dx} = u\dfrac{dv}{dx} + v\dfrac{du}{dx}$,12, True,
+Integration,,,$y=uv$, $ {\Large\int} u \dfrac{dv}{dx} dx=uv-{\Large\int}v \dfrac {du}{dx}dx$,12,
 Differentiation,,,$y=\dfrac{u}{v}$, $ \dfrac{dy}{dx} = \dfrac{v\dfrac{du}{dx} - u\dfrac{dv}{dx}}{v^2}$,12, True,
 Differentiation,,,$y=g(u) \text { where } u = f(x)$, $ \dfrac{dy}{dx} = \dfrac{dy}{du} \times \dfrac{du}{dx}$,12, True,
+Differentiation,,,$y=sin^{-1}f(x)$, $ \dfrac{dy}{dx} =  \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }$,12, True,
+Integration,,,$y=sin^{-1}f(x)$, $ {\Large\int} \dfrac{f'(x)} {\sqrt {a^2 - (f(x))^2} } dx = sin^{-1} \dfrac{f(x)}{a} + c$,12, True,
+Differentiation,,,$y=cos^{-1}f(x)$, $ \dfrac{dy}{dx} =  - \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }$,12, True,Note the minus in front of fraction. Why no integral equivalent?
+Differentiation,,,$y=tan^{-1}f(x)$, $ \dfrac{dy}{dx} =  - \dfrac{f'(x)} {1 + (f(x))^2}$,12, No square root as per inverse sin and inverse cos derivatives and plus sign
+Integration,,,$y=tan^{-1}f(x)$, $ {\Large\int} \dfrac{f'(x)} {a^2 + (f(x))^2} dx = \dfrac{1}{a} tan^{-1} \dfrac{f(x)}{a} + c$,12, True,  No square root as per inverse sin and inverse cos derivatives and plus sign
+Integration,,,$approx$, "$ {\Large\int_{a}^{b}} f(x) dx \approx \dfrac{b-a} {2n} {\Large\{} f(a) + f(b) + 2 {\Large[} f(x_1)+...+f(x_{n-1}){\Large ]} {\Large\}} \text { where } a=x_0 \text{ and } b=x_n $",12, True,
