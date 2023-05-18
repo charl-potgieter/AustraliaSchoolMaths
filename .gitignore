@@ -9,6 +9,9 @@
 *test*
 *TEST*
 *Test*
+*backup*
+*.xlsx
+*.xlsm
 AddInsforGithub/*
 _image_caption_config.py
 Experimentation/*
