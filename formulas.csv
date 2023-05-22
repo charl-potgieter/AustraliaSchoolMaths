@@ -8,43 +8,44 @@ ID,Category, Sub-category,Description,Group,Formula_1,Formula_2,Year,On formula 
 7,Indices,Index Laws,Negative powers,,\(a^{-n}=\dfrac{1}{a^n}\),,9,FALSE,
 8,Indices,Index Laws,Negative powers of quotients,,\(\left(\dfrac{a}{b}\right)^{-n} = \left(\dfrac{b}{a}\right)^n\),,9,FALSE,
 9,Indices,Index Laws,Fractional powers,,\(a^{\frac{m}{n}} =\sqrt[n]{a^m}\),,9,FALSE,
-10,Logarithms,Logarithm Laws,,,\(\log_a{(xy)} = \log_a{x} + log_a{y}\),,11,FALSE,
-11,Logarithms,Logarithm Laws,,,\(\log_a{\left(\dfrac{x}{y}\right)} = \log_a{x} - log_a{y}\),,11,FALSE,
-12,Logarithms,Logarithm Laws,,,\(\log_a{x^n} = n\log_a{x}\),,11,FALSE,
-13,Logarithms,Logarithm Laws,,,\(\log_a{\left(\dfrac{1}{x}\right)} = -\log_a{x}\),,11,FALSE,
-14,Logarithms,Logarithm Laws,,,\(\log_a{x} = \dfrac{\log_b{x}}{\log_b{a}}\),,11,FALSE,
-15,Differentiation,,,1,\( y=f(x)  \),\( \dfrac{dy}{dx} =\lim\limits_{h \to 0} \dfrac{f(x+h) - f(x)}{h}  \),11,FALSE,
-16,Differentiation,,,2,\( y=kx  \),\( \dfrac{dy}{dx} =k  \),11,FALSE,
-17,Differentiation,,,3,\( y=k  \),\( \dfrac{dy}{dx} =0  \),11,FALSE,
-18,Differentiation,,,4,\( y=x^n  \),\( \dfrac{dy}{dx} =nx^{n-1}  \),11,FALSE,
-19,Differentiation,,,5,\( y=kx^n  \),\( \dfrac{dy}{dx} =knx^{n-1}  \),11,FALSE,
-20,Differentiation,,,6,\( y=kf(x)  \),\( \dfrac{dy}{dx} =kf'(x)  \),11,FALSE,
-21,Differentiation,,,7,\( y=f(x) + g(x)  \),\( \dfrac{dy}{dx} =f'(x) + g'(x)  \),,,
-22,Differentiation,,,,,,,,
-23,Differentiation,,,8,\(y=f(x)^n\),\(\dfrac{dy}{dx}=nf'(x)[f(x)]^{n-1}\),12,TRUE,
+10,Logarithms,Logarithm Laws,,,\(\log_a{(xy)} = \log_a{x} + log_a{y}\),,11_adv,FALSE,
+11,Logarithms,Logarithm Laws,,,\(\log_a{\left(\dfrac{x}{y}\right)} = \log_a{x} - log_a{y}\),,11_adv,FALSE,
+12,Logarithms,Logarithm Laws,,,\(\log_a{x^n} = n\log_a{x}\),,11_adv,FALSE,
+13,Logarithms,Logarithm Laws,,,\(\log_a{\left(\dfrac{1}{x}\right)} = -\log_a{x}\),,11_adv,FALSE,
+14,Logarithms,Logarithm Laws,,,\(\log_a{x} = \dfrac{\log_b{x}}{\log_b{a}}\),,11_adv,FALSE,
+15,Differentiation,,,1,\( y=f(x)  \),\( \dfrac{dy}{dx} =\lim\limits_{h \to 0} \dfrac{f(x+h) - f(x)}{h}  \),11_adv,FALSE,
+16,Differentiation,,,2,\( y=kx  \),\( \dfrac{dy}{dx} =k  \),11_adv,FALSE,
+17,Differentiation,,,3,\( y=k  \),\( \dfrac{dy}{dx} =0  \),11_adv,FALSE,
+18,Differentiation,,,4,\( y=x^n  \),\( \dfrac{dy}{dx} =nx^{n-1}  \),11_adv,FALSE,
+19,Differentiation,,,5,\( y=kx^n  \),\( \dfrac{dy}{dx} =knx^{n-1}  \),11_adv,FALSE,
+20,Differentiation,,,6,\( y=kf(x)  \),\( \dfrac{dy}{dx} =kf'(x)  \),11_adv,FALSE,
+21,Differentiation,,,7,\( y=f(x) + g(x)  \),\( \dfrac{dy}{dx} =f'(x) + g'(x)  \),11_adv,,
+23,Differentiation,,,8,\(y=f(x)^n\),\(\dfrac{dy}{dx}=nf'(x)[f(x)]^{n-1}\),12_adv,TRUE,
 24,Integration,,,8,"\( {\Large\int} f'(x)[f(x)]^n dx = \dfrac{1}{n+1}[f(x)]^{n+1} + c \)
-\( \text{ where } n \neq -1 \)",,12,TRUE,When n = -1 follow the integration rules for  $ {\Large\int} \dfrac{f'(x)}{f(x)}dx$
-25,Differentiation,,,9,\(y=uv\),\( \dfrac{dy}{dx} = u\dfrac{dv}{dx} + v\dfrac{du}{dx}\),12,TRUE,
-26,Integration,,,9,\( {\Large\int} u \dfrac{dv}{dx} dx=uv-{\Large\int}v \dfrac {du}{dx}dx\),,12,TRUE,
-27,Differentiation,,,10,\(y=\dfrac{u}{v}\),\( \dfrac{dy}{dx} = \dfrac{v\dfrac{du}{dx} - u\dfrac{dv}{dx}}{v^2}\),12,TRUE,
-28,Differentiation,,,11,\(y=g(u) \text { where } u = f(x)\),\( \dfrac{dy}{dx} = \dfrac{dy}{du} \times \dfrac{du}{dx}\),12,TRUE,
+\( \text{ where } n \neq -1 \)",,12_adv,TRUE,When n = -1 follow the integration rules for  $ {\Large\int} \dfrac{f'(x)}{f(x)}dx$
+25,Differentiation,,,9,\(y=uv\),\( \dfrac{dy}{dx} = u\dfrac{dv}{dx} + v\dfrac{du}{dx}\),12_adv,TRUE,
+26,Integration,,,9,\( {\Large\int} u \dfrac{dv}{dx} dx=uv-{\Large\int}v \dfrac {du}{dx}dx\),,12_adv,TRUE,
+27,Differentiation,,,10,\(y=\dfrac{u}{v}\),\( \dfrac{dy}{dx} = \dfrac{v\dfrac{du}{dx} - u\dfrac{dv}{dx}}{v^2}\),12_adv,TRUE,
+28,Differentiation,,,11,\(y=g(u) \text { where } u = f(x)\),\( \dfrac{dy}{dx} = \dfrac{dy}{du} \times \dfrac{du}{dx}\),12_adv,TRUE,
 29,Integration,,,12,"\( {\Large\int_{a}^{b}} f(x) dx \approx \dfrac{b-a} {2n} {\Large\{} f(a) + f(b) + 2 {\Large[} f(x_1)+...+f(x_{n-1}){\Large ]} {\Large\}}\)
-\( \text { where } a=x_0 \text{ and } b=x_n \)",,12,TRUE,
-30,Differentiation,,,13,\(y=sinf(x)\),\(\dfrac{dy}{dx} = f'(x)cos f(x)\),12,TRUE,
-31,Integration,,,13,\( {\Large\int} f'(x)cosf(x)dx = sin f(x) + c\),,12,TRUE,
-32,Differentiation,,,14,\(y=cosf(x)\),\( \dfrac{dy}{dx} = -f'(x)sin f(x)\),12,TRUE,
-33,Integration,,,14,\( {\Large\int} f'(x)sin f(x)dx = -cos f(x) + c\),,12,TRUE,
-34,Differentiation,,,15,\(y=tan f(x)\),\( \dfrac{dy}{dx} = f'(x)sec^2 f(x)\),12,TRUE,
-35,Integration,,,15,\( {\Large\int} f'(x)sec^2 f(x)dx = tan f(x) + c\),,12,TRUE,
-36,Differentiation,,,16,\(y=e^{f(x)}\),\( \dfrac{dy}{dx} = f'(x) e^{f(x)}\),12,TRUE,
-37,Integration,,,16,\( {\Large\int} f'(x)e^{f(x)}dx = e^{f(x)} + c\),,12,TRUE,
-38,Differentiation,,,17,\(y=ln f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{f(x)}\),12,TRUE,
-39,Integration,,,17,\( {\Large\int} \dfrac{f'(x)}{f(x)}dx = ln|f(x)| + c\),,12,TRUE,Why absolute value?
-40,Differentiation,,,18,\(y=a^{f(x)}\),\( \dfrac{dy}{dx} = (ln \thinspace a)f'(x)a^{f(x)}\),12,TRUE,
-41,Integration,,,18,\( {\Large\int} f'(x)a^{f(x)}dx = \dfrac{a^f(x)}{ln \thinspace a} +c\),,12,TRUE,ln a is a constant therefore can be removed from the integral it can go on the other side of the intergral equation when compared to the derivative equation.
-42,Differentiation,,,19,\(y=log _{a} f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{(ln \thinspace a) f(x)}\),12,TRUE,This formula is not really needed on formula sheet as original function can easily be rewritten as $\dfrac{ln \thinspace f(x)}{ln \thinspace a}$ where $\dfrac{1}{ln \thinspace a}$ is a constant therefore the derivative rules for $y=\text{constant }\times ln \thinspace f(x)$ can be followed.  No equivalent integral is provided on formula sheet but can be easily derived.
-43,Differentiation,,,20,\(y=sin^{-1}f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }\),12,TRUE,
-44,Integration,,,20,\( {\Large\int} \dfrac{f'(x)} {\sqrt {a^2 - (f(x))^2} } dx = sin^{-1} \dfrac{f(x)}{a} + c\),,12,TRUE,"Note slighlty different format compared to derivative on formula sheet  (""a"" rather than a 1)"
-45,Differentiation,,,21,\(y=cos^{-1}f(x)\),\( \dfrac{dy}{dx} = - \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }\),12,TRUE,Note the minus in front of fraction. Why no integral equivalent?
-46,Differentiation,,,22,\(y=tan^{-1}f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)} {1 + (f(x))^2}\),12,TRUE,No square root as per inverse sin and inverse cos derivatives and plus sign
-47,Integration,,,22,\( {\Large\int} \dfrac{f'(x)} {a^2 + (f(x))^2} dx = \dfrac{1}{a} tan^{-1} \dfrac{f(x)}{a} + c\),,12,TRUE,"Note slighlty different format compared to derivative on formula sheet  (""a"" rather than a 1)"
+\( \text { where } a=x_0 \text{ and } b=x_n \)",,12_adv,TRUE,
+30,Differentiation,,,13,\(y=sinf(x)\),\(\dfrac{dy}{dx} = f'(x)cos f(x)\),12_adv,TRUE,
+31,Integration,,,13,\( {\Large\int} f'(x)cosf(x)dx = sin f(x) + c\),,12_adv,TRUE,
+32,Differentiation,,,14,\(y=cosf(x)\),\( \dfrac{dy}{dx} = -f'(x)sin f(x)\),12_adv,TRUE,
+33,Integration,,,14,\( {\Large\int} f'(x)sin f(x)dx = -cos f(x) + c\),,12_adv,TRUE,
+34,Differentiation,,,15,\(y=tan f(x)\),\( \dfrac{dy}{dx} = f'(x)sec^2 f(x)\),12_adv,TRUE,
+35,Integration,,,15,\( {\Large\int} f'(x)sec^2 f(x)dx = tan f(x) + c\),,12_adv,TRUE,
+36,Differentiation,,,16,\(y=e^{f(x)}\),\( \dfrac{dy}{dx} = f'(x) e^{f(x)}\),12_adv,TRUE,
+37,Integration,,,16,\( {\Large\int} f'(x)e^{f(x)}dx = e^{f(x)} + c\),,12_adv,TRUE,
+38,Differentiation,,,17,\(y=ln f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{f(x)}\),12_adv,TRUE,
+39,Integration,,,17,\( {\Large\int} \dfrac{f'(x)}{f(x)}dx = ln|f(x)| + c\),,12_adv,TRUE,Why absolute value?
+40,Differentiation,,,18,\(y=a^{f(x)}\),\( \dfrac{dy}{dx} = (ln \thinspace a)f'(x)a^{f(x)}\),12_adv,TRUE,
+41,Integration,,,18,\( {\Large\int} f'(x)a^{f(x)}dx = \dfrac{a^f(x)}{ln \thinspace a} +c\),,12_adv,TRUE,ln a is a constant therefore can be removed from the integral it can go on the other side of the intergral equation when compared to the derivative equation.
+42,Differentiation,,,19,\(y=log _{a} f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{(ln \thinspace a) f(x)}\),12_adv,TRUE,This formula is not really needed on formula sheet as original function can easily be rewritten as $\dfrac{ln \thinspace f(x)}{ln \thinspace a}$ where $\dfrac{1}{ln \thinspace a}$ is a constant therefore the derivative rules for $y=\text{constant }\times ln \thinspace f(x)$ can be followed.  No equivalent integral is provided on formula sheet but can be easily derived.
+43,Differentiation,,,20,\(y=sin^{-1}f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }\),12_ext_1,TRUE,
+44,Integration,,,20,\( {\Large\int} \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} } dx = sin^{-1} f(x) + c\),,12_ext_1,FALSE,
+45,Integration,,,21,\( {\Large\int} \dfrac{f'(x)} {\sqrt {a^2 - (f(x))^2} } dx = sin^{-1} \dfrac{f(x)}{a} + c\),,12_ext_1,TRUE,"Note slighlty different format compared to derivative on formula sheet  (""a"" rather than a 1)"
+46,Differentiation,,,22,\(y=cos^{-1}f(x)\),\( \dfrac{dy}{dx} = - \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }\),12_ext_1,TRUE,Note the minus in front of fraction. Why no integral equivalent?
+47,Differentiation,,,23,\(y=tan^{-1}f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)} {1 + (f(x))^2}\),12_ext_1,TRUE,No square root as per inverse sin and inverse cos derivatives and plus sign
+48,Integration,,,23,\( {\Large\int} \dfrac{f'(x)} {a^2 + (f(x))^2} dx = \dfrac{1}{a} tan^{-1} \dfrac{f(x)}{a} + c\),,12_ext_1,TRUE,"Note slighlty different format compared to derivative on formula sheet  (""a"" rather than a 1)"
+49,Differentiation,,,24,"\( \dfrac{dy}{dx} \times \dfrac{dx}{dy} = 1, \text{  or  } \dfrac{dy}{dx} = \dfrac{1}{\dfrac{dx}{dy}} \)",,,,Formula can be utilised to calculate otherwise hard to differentiate inverse functions
