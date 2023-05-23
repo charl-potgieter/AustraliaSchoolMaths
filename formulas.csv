@@ -37,15 +37,24 @@ ID,Category, Sub-category,Description,Group,Formula_1,Formula_2,Year,On formula 
 35,Integration,,,15,\( {\Large\int} f'(x)sec^2 f(x)dx = tan f(x) + c\),,12_adv,TRUE,
 36,Differentiation,,,16,\(y=e^{f(x)}\),\( \dfrac{dy}{dx} = f'(x) e^{f(x)}\),12_adv,TRUE,
 37,Integration,,,16,\( {\Large\int} f'(x)e^{f(x)}dx = e^{f(x)} + c\),,12_adv,TRUE,
-38,Differentiation,,,17,\(y=ln f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{f(x)}\),12_adv,TRUE,
-39,Integration,,,17,\( {\Large\int} \dfrac{f'(x)}{f(x)}dx = ln|f(x)| + c\),,12_adv,TRUE,Why absolute value?
-40,Differentiation,,,18,\(y=a^{f(x)}\),\( \dfrac{dy}{dx} = (ln \thinspace a)f'(x)a^{f(x)}\),12_adv,TRUE,
-41,Integration,,,18,\( {\Large\int} f'(x)a^{f(x)}dx = \dfrac{a^f(x)}{ln \thinspace a} +c\),,12_adv,TRUE,ln a is a constant therefore can be removed from the integral it can go on the other side of the intergral equation when compared to the derivative equation.
-42,Differentiation,,,19,\(y=log _{a} f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{(ln \thinspace a) f(x)}\),12_adv,TRUE,This formula is not really needed on formula sheet as original function can easily be rewritten as $\dfrac{ln \thinspace f(x)}{ln \thinspace a}$ where $\dfrac{1}{ln \thinspace a}$ is a constant therefore the derivative rules for $y=\text{constant }\times ln \thinspace f(x)$ can be followed.  No equivalent integral is provided on formula sheet but can be easily derived.
-43,Differentiation,,,20,\(y=sin^{-1}f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }\),12_ext_1,TRUE,
-44,Integration,,,20,\( {\Large\int} \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} } dx = sin^{-1} f(x) + c\),,12_ext_1,FALSE,
-45,Integration,,,21,\( {\Large\int} \dfrac{f'(x)} {\sqrt {a^2 - (f(x))^2} } dx = sin^{-1} \dfrac{f(x)}{a} + c\),,12_ext_1,TRUE,"Note slighlty different format compared to derivative on formula sheet  (""a"" rather than a 1)"
-46,Differentiation,,,22,\(y=cos^{-1}f(x)\),\( \dfrac{dy}{dx} = - \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }\),12_ext_1,TRUE,Note the minus in front of fraction. Why no integral equivalent?
-47,Differentiation,,,23,\(y=tan^{-1}f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)} {1 + (f(x))^2}\),12_ext_1,TRUE,No square root as per inverse sin and inverse cos derivatives and plus sign
-48,Integration,,,23,\( {\Large\int} \dfrac{f'(x)} {a^2 + (f(x))^2} dx = \dfrac{1}{a} tan^{-1} \dfrac{f(x)}{a} + c\),,12_ext_1,TRUE,"Note slighlty different format compared to derivative on formula sheet  (""a"" rather than a 1)"
-49,Differentiation,,,24,"\( \dfrac{dy}{dx} \times \dfrac{dx}{dy} = 1, \text{  or  } \dfrac{dy}{dx} = \dfrac{1}{\dfrac{dx}{dy}} \)",,,,Formula can be utilised to calculate otherwise hard to differentiate inverse functions
+38,Differentiation,,,17,\(y=\ln f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{f(x)}\),12_adv,TRUE,
+39,Integration,,,17,\( {\Large\int} \dfrac{f'(x)}{f(x)}dx = \ln|f(x)| + c\),,12_adv,TRUE,Why absolute value?
+40,Differentiation,,,18,\(y=a^{f(x)}\),\( \dfrac{dy}{dx} = (\ln a)f'(x)a^{f(x)}\),12_adv,TRUE,
+41,Integration,,,18,\( {\Large\int} f'(x)a^{f(x)}dx = \dfrac{a^f(x)}{\ln  a} +c\),,12_adv,TRUE,ln a is a constant therefore can be removed from the integral it can go on the other side of the intergral equation when compared to the derivative equation.
+42,Differentiation,,,19,\(y=log _{a} f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{(\ln a) f(x)}\),12_adv,TRUE,
+43,Integration,,,19,\( {\Large\int} \dfrac{f'(x)}{(\ln a) f(x)} = \log_{a} |f(x)|  + c\),,12_adv,FALSE,"Is this integral expression correct, in particular the absolute value?"
+44,Differentiation,,,20,\(y=sin^{-1}f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }\),12_ext_1,TRUE,
+45,Integration,,,20,\( {\Large\int} \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} } dx = sin^{-1} f(x) + c\),,12_ext_1,FALSE,
+46,Differentiation,,,21,\( y = sin^{-1} \dfrac{f(x)}{a} \),\( \dfrac{dy}{dx} = \dfrac{f'(x)}{\sqrt{a^2 - (f(x))^2}} \),12_ext_1,FALSE,
+47,Integration,,,21,\( {\Large\int} \dfrac{f'(x)} {\sqrt {a^2 - (f(x))^2} } dx = sin^{-1} \dfrac{f(x)}{a} + c\),,12_ext_1,TRUE,
+48,Differentiation,,,22,\(y=cos^{-1}f(x)\),\( \dfrac{dy}{dx} = - \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }\),12_ext_1,TRUE,
+49,Integration,,,22,"\( {\Large\int} - \dfrac{f'(x)} {\sqrt {1 - (f(x))^2} }  = cos^{-1}f(x) + c \text{ or } -sin^{-1}f(x) +c\)
+\( \text{Note the constant c will have different values with these two options} \)",,12_ext_1,FALSE,
+50,Differentiation,,,23,\(y=cos^{-1} \dfrac{f(x)}{a}\),\( \dfrac{dy}{dx} = - \dfrac{f'(x)} {\sqrt {a^2 - (f(x))^2} }\),,,
+51,Integration,,,23,"\( {\Large\int} - \dfrac{f'(x)} {\sqrt {a^2 - (f(x))^2} }  = cos^{-1}\dfrac{f(x)}{a} + c \text{ or } -sin^{-1}\dfrac{f(x)}{a} +c\)
+\( \text{Note the constant c will have different values with these two options} \)",,,,
+52,Differentiation,,,24,\(y=tan^{-1}f(x)\),\( \dfrac{dy}{dx} = \dfrac{f'(x)} {1 + (f(x))^2}\),12_ext_1,TRUE,
+53,Integration,,,24,\( {\Large\int} \dfrac{f'(x)} {1 + (f(x))^2} dx = \ tan^{-1} f(x) + c\),,12_ext_1,FALSE,
+54,Differentiation,,,25,\(y=tan^{-1}\dfrac{f(x)}{a}\),\( \dfrac{dy}{dx} =  \dfrac{1}{a} tan^{-1} \dfrac{f(x)}{a} \),12_ext_1,FALSE,
+55,Integration,,,25,\( {\Large\int} \dfrac{f'(x)} {a^2 + (f(x))^2} dx = \dfrac{1}{a} tan^{-1} \dfrac{f(x)}{a} + c\),,12_ext_1,TRUE,
+56,Differentiation,,,26,\( \text{Function and its inverse} \),"\( \dfrac{dy}{dx} \times \dfrac{dx}{dy} = 1, \text{  or  } \dfrac{dy}{dx} = \dfrac{1}{\dfrac{dx}{dy}} \)",12_ext_1,FALSE,Formula can be utilised to calculate otherwise hard to differentiate inverse functions
